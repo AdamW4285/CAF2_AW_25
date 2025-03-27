@@ -1,0 +1,106 @@
+Product,GHG,CO2
+1.1.1 Bread and cereals,0.774,0.381
+1.1.2 Meat,2.364,0.697
+1.1.3 Fish and seafood,0.152,0.092
+"1.1.4 Milk, cheese and eggs",0.649,0.277
+1.1.5 Oils and fats,0.227,0.101
+1.1.6 Fruit,0.077,0.042
+1.1.7 Vegetables,0.077,0.042
+"1.1.8 Sugar, jam, honey, chocolate and confectionery",0.281,0.122
+1.1.9 Food products n.e.c.,0.281,0.122
+"1.2.1 Coffee, tea and cocoa",0.142,0.062
+"1.2.2 Mineral waters, soft drinks, fruit and vegetable juices",0.446,0.226
+2.1.1 Spirits,0.135,0.062
+2.1.2 Wine,0.135,0.062
+2.1.3 Beer,0.135,0.062
+2.2.1 Tobacco,0.223,0.08
+3.1.1 Clothing materials,1.236,0.885
+3.1.2 Garments,0.336,0.246
+3.1.3 Other articles of clothing and clothing accessories,1.798,1.311
+"3.1.4 Cleaning, repair and hire of clothing",0.042,0.033
+3.2.1 Shoes and other footwear,0.448,0.293
+3.2.2 Repair and hire of footwear,0.53,0.353
+4.1.1 Actual rentals paid by tenants,0.125,0.095
+4.1.2 Other actual rentals,0.125,0.095
+4.2.1 Imputed rentals of owner occupiers,0.011,0.009
+4.3.1 Materials for the mainenance and repair of the dwelling,0.09,0.069
+4.3.2 Other services for the maintenance and repair of the dwelling,0.09,0.069
+4.4.1 Water supply,0.239,0.116
+4.4.2 Refuse collection,0.239,0.116
+4.4.3 Sewage collection,0.239,0.116
+4.4.4 Other services relating to the dwelling n.e.c.,0.239,0.116
+4.5.1 Electricity,1.827,1.552
+4.5.2 Gas,5.64,5.208
+4.5.3 Liquid fuels,5.143,4.684
+4.5.4 Solid fuels,4.041,3.343
+4.5.5 Heat energy,0.618,0.318
+5.1.1 Furniture and furnishings,0.253,0.206
+5.1.2 Carpets and other floor coverings,0.438,0.315
+"5.1.3 Repair of furniture, furnishings and floor coverings",0.666,0.5
+5.2.1 Household textiles,1.067,0.764
+5.3.1 Major household appliances whether electric or not,0.191,0.155
+5.3.2 Small electric household appliances,0.191,0.155
+5.3.3 Repair of household applicances,0.317,0.248
+"5.4.1 Glassware,tableware and household utensils",1.101,0.908
+5.5.1 Major tools and equipment,0.196,0.158
+5.5.2 Small tools and miscellaneous accessories,0.196,0.158
+5.6.1 Non-durable household goods,0.124,0.087
+5.6.2 Domestic services and household services,0.069,0.053
+6.1.1 Pharmaceutical products,1.473,0.967
+6.1.2 Other medical products,1.473,0.967
+6.1.3 Therapeutic appliances and equipment,0.161,0.129
+6.2.1 Medical services,0.327,0.228
+6.2.2 Dental services,0.327,0.228
+6.2.3 Paramedical services,0.327,0.228
+6.3.1 Hospital services,8.054,5.637
+7.1.1 Motor cars,0.242,0.193
+7.1.2 Motor cycles,0.103,0.084
+7.1.3 Bicycles,0.103,0.084
+7.1.4 Animal drawn vehicles,- , - 
+7.2.1 Spare parts and accessories for personal transport equipment,0.114,0.088
+7.2.2 Fuels and lubricants for personal transport equipment,3.035,2.616
+7.2.3 Maintenance and repair of personal transport equipment,0.308,0.243
+7.2.4 Other services in respect of personal transport equipment,0.243,0.192
+7.3.1_2 Passenger transport by railway and road,2.016,1.674
+7.3.3 Passenger transport by air,0.955,0.87
+7.3.4 Other transport services,25.93,24.582
+8.1.1 Postal services,0.353,0.29
+8.2.1 Telephone and telefax equipment,0.812,0.662
+8.3.1 Telephone and telefax services,0.262,0.206
+"9.1.1 Equipment for the reception, recording and reproduction of sound and pictures",0.823,0.659
+9.1.2 Photographic and cenematographic equipment,0.679,0.545
+9.1.3 Information processing equiment,0.679,0.545
+9.1.4 Recording media,0.87,0.689
+"9.1.5 Repair of audio-visual, photographic and information processing equipment",0.679,0.545
+9.2.1 Major durables for outdoor recreation,0.492,0.351
+9.2.2 Musical instruments and major durables for indoor recreation,0.362,0.296
+9.2.3 Maintenance and repair of other durables for recreation and culture,0.821,0.674
+"9.3.1 Games, toys and hobbies",0.553,0.424
+"9.3.2 Equipment for sport, camping and open-air recreation",1.676,0.689
+"9.3.3 Gardens, plants and flowers",0.234,0.179
+9.3.4 Pets and related products,1.738,0.584
+9.3.5 Veterinary and other services for pets,0.66,0.317
+9.4.1 Recreational and sporting services,0.156,0.117
+9.4.2 Cultural services,0.277,0.208
+9.4.3 Games of chance,2.609,1.903
+9.5.1 Books,0.18,0.13
+9.5.2 Newspapers and periodicals,0.18,0.13
+9.5.3 Miscellaneous printed matter,0.18,0.13
+9.5.4 Stationery and drawing materials,0.18,0.13
+10.1.1 Pre-primary and primary education,0.457,0.351
+10.2.1 Secondary education,0.457,0.351
+10.3.1 Post-secondary non-tertiary education,0.457,0.351
+10.4.1 Tertiary education,0.457,0.351
+10.5.1 Education not definable by level,0.457,0.351
+"11.1.1 Restaurants, cafes and the like",0.853,0.561
+11.1.2 Canteens,0.853,0.561
+11.2.1 Accommodation services,0.414,0.262
+12.1.1 Hairdressing salons and personal grooming establishments,0.254,0.192
+12.1.2 Electrical appliances for personal care,0.254,0.192
+"12.1.3 Other appliances, articles and products for personal care",0.254,0.192
+"12.3.1 Jewellery, clocks and watches",0.254,0.192
+12.3.2 Other personal effects,0.254,0.192
+12.4.1.1 Social protection,0.333,0.255
+12.5 Insurance,0.333,0.255
+12.6.2 Other financial services n.e.c.,0.333,0.255
+12.7.1 Other services n.e.c.,0.333,0.255

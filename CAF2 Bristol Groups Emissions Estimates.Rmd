@@ -1,0 +1,45 @@
+---
+title: "CAF2 Bristol Groups Emissions Estimates"
+author: "Adam Wright"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sources
+This analysis has been completed using 3 data sources:\
+[Family Spending](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook2expenditurebyincome) - The breakdown by tenure was used here to provide an appropriate join to UK Census data.\
+[Census](https://www.ons.gov.uk/filters/ee9fa788-2c8e-4bc4-a7d7-e385811d0a80/dimensions) - With the filters used in the link, including tenure to link to Family Spending data.\
+[Carbon Footprint](https://www.gov.uk/government/statistics/uks-carbon-footprint) - Using the "multiplier_2021" sheet and grouping everything generally by number.
+
+## Methodology
+Using this data, I organised each dataset to allow joining. The family spending dataset required me to join 2 types of paid rent groups in order to join to the census data, which I did based on the proportion of each in the dataset. Individual tenure data for healthcare and education spend was masked. As can be seen below, there is no clear patter across spending for the remaining product groups, so I used the average spend for both healthcare and education for every tenure, which was provided. This means the total spend for each tenure is not accurate, and I can look into adjusting this if you think it's appropriate, but my initial thought is that that would be a bit of a bodge. I also scaled the household emissions down to individual level using the average number of individuals per house, which was provided. This factor was rounded in the data, and I'd be happy to recalculate it to get a more accurate figure.\
+This data was then joined to emissions data, grouping the emissions data together by number, with the exception of "Other sevices n.e.c" which I used to create the "other" group, as this isn't split in the emissions data, but is a separate category in the family spending data. Both overall GHG emissions and CO2 emissions have been calculated.\
+This was then joined to the census data on tenure. The data was subset to the particular groups of interest. The overall emissions were extracted (which ignores any NA values) and this was divided by those observations with complete data to find a per-capita figure. This was then scaled back up to total population levels. The NA values are consistent across rows, as they appear due to left joining, so the calculations of based on na.rm=TRUE (which is only concerned with NAs within any given row) and na.omit (which removes observations with an NA valuee in any variable) are acceptable.
+
+
+```{r, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
+source("scripts/analysis.R")
+```
+```{r, echo=FALSE}
+gg
+```
+
+
+## Assumptions
+A nuber of assumptions have been made:\
+Healthcare and education spend is consistent across all tenure types.\
+Each individual within any given household contributes equally to each emissions from each product group.\
+Each product within a given product group has the same amount of money spent on it by a household.\
+The individuals with NA results (who are excluded from total emissions calculations) have the same spending habits as those who aren't excluded.
+
+## Results
+This analysis has resulted in the following emissions calculations:
+
+```{r, echo=FALSE}
+knitr::kable(fin.tab)
+```
+
